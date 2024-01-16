@@ -9,7 +9,7 @@
    color: #fff;
    background-color: #FF5400;
    border: #fff;
-   border-radius: 10px;
+   border-radius: 5px;
    padding: 10px 20px;
    margin: 8px 0;
 }
@@ -33,11 +33,35 @@
 }
 .banner-p{
    color: #fff;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
 }
 input[type=text] ,select {
    color: gray;
-   border-radius: 10px;
+   border-radius: 5px;
    padding: 10px 20px;
    margin: 8px 0;
    border: #fff;
+ }
+
+/* styles to make it responsive */
+/* small devices */
+ @media screen and (max-width: 600px) {
+    .banner-tittle{
+      font-size: 1.5rem;
+   
+    }
+    .banner-p{
+      width: 80%;
+    }
+    .banner-form{
+      flex-direction: column;
+    }
+    select, .banner-btn{
+      width: 80%;
+    }
+    input[type=text] {
+      width: 66%;
+    }
  }
