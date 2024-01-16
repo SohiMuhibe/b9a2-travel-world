@@ -1,0 +1,43 @@
+/* shared style */
+.primary-tittle{
+   font-family: 'Mulish', sans-serif;
+   font-weight: 800;
+   font-size: 2.5rem;
+
+}
+.primary-button{
+   color: #fff;
+   background-color: #FF5400;
+   border: #fff;
+   border-radius: 10px;
+   padding: 10px 20px;
+   margin: 8px 0;
+}
+/* For header*/
+/* banner section */
+.banner {
+   background-image: linear-gradient(rgb(54, 54, 54) ,transparent), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+   border-radius: 20px;
+   width: 87%;
+   height: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+
+}
+.banner-tittle{
+   color: #fff;
+   font-size: 4rem;
+   padding-top: 6.6rem;
+}
+.banner-p{
+   color: #fff;
+}
+input[type=text] ,select {
+   color: gray;
+   border-radius: 10px;
+   padding: 10px 20px;
+   margin: 8px 0;
+   border: #fff;
+ }
