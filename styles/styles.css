@@ -117,6 +117,18 @@ input[type=text] ,select {
        text-align: center;
        transform: translateY(-143px) translateX(505px) rotate(-25deg);
 }
+/* footer */
+footer{
+    background-color: rgb(224, 231, 231);
+    height: 500px;
+    padding: 100px;
+    margin: 0;
+    text-align: center;
+    
+}
+.orange-text{
+   color: #FF5400;
+}
 /* styles to make it responsive */
 /* small devices */
  @media screen and (max-width: 600px) {
@@ -169,4 +181,9 @@ input[type=text] ,select {
    .save-btn{
       display: none;
    }
+   footer{
+      padding: 50px;
+
+      
+  }
  }
