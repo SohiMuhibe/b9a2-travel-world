@@ -56,12 +56,26 @@ input[type=text] ,select {
 .colom{
    margin: 20px;
 }
+/* destination section */
+.destination-text{
+   text-align: center;
+   margin-bottom: 40px;
+}
+.row{
+   display: flex;
+   justify-content: center;
+   margin: 15px;
+   gap: 5px;
+}
+.row-2{
+   gap: 15px;
+}
 /* styles to make it responsive */
 /* small devices */
  @media screen and (max-width: 600px) {
+
     .banner-tittle , .primary-tittle{
       font-size: 1.5rem;
-   
     }
     .banner-p{
       width: 80%;
@@ -71,12 +85,21 @@ input[type=text] ,select {
       margin: 0.2rem;
     }
     select, .banner-btn{
-      width: 80%;
+      width: 70%;
     }
     input[type=text] {
-      width: 66%;
+      width: 60%;
     }
       .popular-tours .colom >img{
-        width: 100%;
+        width: 95%;
+   }
+   .colom,.row  {
+      margin: 6px;
+   }
+   .row{
+      flex-direction: column;
+   }
+   .row img{
+      width: 95%;
    }
  }
