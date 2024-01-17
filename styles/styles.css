@@ -2,7 +2,7 @@
 .primary-tittle{
    font-family: 'Mulish', sans-serif;
    font-weight: 800;
-   font-size: 2.5rem;
+   font-size: 2.4rem;
 
 }
 .primary-button{
@@ -12,6 +12,9 @@
    border-radius: 5px;
    padding: 10px 20px;
    margin: 8px 0;
+}
+.text-gray{
+   color: lightslategray;
 }
 /* For header*/
 /* banner section */
@@ -45,18 +48,27 @@ input[type=text] ,select {
    border: #fff;
  }
 
+/* popular-tours section */
+.popular-tours{
+   display: flex;
+   margin: 6rem;
+}
+.colom{
+   margin: 20px;
+}
 /* styles to make it responsive */
 /* small devices */
  @media screen and (max-width: 600px) {
-    .banner-tittle{
+    .banner-tittle , .primary-tittle{
       font-size: 1.5rem;
    
     }
     .banner-p{
       width: 80%;
     }
-    .banner-form{
+    .banner-form , .popular-tours{
       flex-direction: column;
+      margin: 0.2rem;
     }
     select, .banner-btn{
       width: 80%;
@@ -64,4 +76,7 @@ input[type=text] ,select {
     input[type=text] {
       width: 66%;
     }
+      .popular-tours .colom >img{
+        width: 100%;
+   }
  }
